@@ -6,7 +6,7 @@ from ckgen.atm import AtmKernel
 class CESMKGen(Fortlab):
 
     _name_ = "ckgen"
-    _version_ = "0.1.0"
+    _version_ = "0.1.1"
     _description_ = "Microapp CESM Fortran Kernel Generator"
     _long_description_ = "Microapp CESM Fortran Kernel Generator"
     _author_ = "Youngsung Kim"
