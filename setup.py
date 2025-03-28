@@ -6,7 +6,7 @@ def main():
     from ckgen.main import CESMKGen as kgen
 
     console_scripts = ["ckgen=ckgen.__main__:main"]
-    install_requires = ["fortlab>=1.1.4"]
+    install_requires = ["fortlab>=1.1.5"]
 
     setup(
         name=kgen._name_,
